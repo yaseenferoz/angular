@@ -1,0 +1,10 @@
+<app-divider>Tables Component</app-divider>
+<app-tables className="striped celled" [data]="data" [headers]="headers"></app-tables>
+
+<app-divider>Tabs Component</app-divider>
+<app-tabs>
+    <a routerLink="./" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="item">Bio</a>
+    <a routerLink="companies" routerLinkActive="active" class="item">Companies</a>
+    <a routerLink="partners" routerLinkActive="active" class="item">Partners</a>
+  
+</app-tabs>
